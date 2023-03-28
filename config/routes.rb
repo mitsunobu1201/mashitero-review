@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   root to:"homes#top"
+  get "about" => "homes#about", as: "about"
+
 end
